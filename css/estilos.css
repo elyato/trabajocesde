@@ -55,15 +55,17 @@ h1{
     font-family: 'Rowdies', cursive;
     font-size: 9.5rem;
     line-height: 1.2;
+
 }
 p{
+  color: rgb(109, 202, 255);
     font-size: 1rem;
     letter-spacing: 2.5px;
     padding: 0px 0px 0px 10px ;
 }
 
 .cristiano {
-  height: 80vh;
+  height: 85vh;
   background-image: linear-gradient(
       to right,
       rgba(228, 12, 12, 0.815),
