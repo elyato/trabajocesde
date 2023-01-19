@@ -76,18 +76,6 @@ p {
   align-items: flex-start;
   color: rgb(255, 255, 255);
 }
-
-.content-botton {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  width: 500vh;
-  height: auto;
-  position: relative;
-  overflow: hidden;
-}
-.content-botton ::before {
-}
 .botton {
   display: flex;
   align-self: center;
@@ -99,7 +87,41 @@ p {
   background-color: rgb(120, 4, 4);
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
-  border-radius: 40%;
   border: none;
   box-shadow: 2px 2px 2px 2px #000;
+}
+
+.content-botton {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 500vh;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.botton ::before {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 236px;
+  background-image: conic-gradient(red 20deg, transparent 120deg);
+  animation: rotar 2s linear infinite;
+}
+
+@keyframes rotar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.botton ::after {
+  content: "";
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(120, 4, 4);
 }
