@@ -154,3 +154,26 @@ border-radius: 25px;
 .bio{
   padding: 10px;
 }
+.titulos{
+
+  padding: 20px;
+}
+.titulo-3{
+  background-color: #aeb0b0d2;
+  color: #000;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 15px;
+}
+.content-titu{
+font-size: 0.9rem;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 20px;
+}
+.img-cristiano{
+  width: 200px;
+
+}
