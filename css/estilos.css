@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Rowdies&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@400&family=Pacifico&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -113,24 +114,43 @@ header {
   background-color: #94f1e5;
   color: rgb(11, 10, 10);
 }
+/* desde aca comienza el codigo de la biografia */
 .biografia {
+border-radius: 25px;
   display: flex;
   flex-direction: column;
   text-align: center;
   color: black;
+  background-color: #f2ece7d2;
 }
 .content-bio {
+
+  margin: 30px;
   display: flex;
   justify-content: space-between;
 }
-ul {
+.lista {
   list-style: none;
+  text-align: left;
+  font-size: 1rem;
 }
 .img-bio {
   width: 270px;
   height: auto;
+  border-radius: 20px 0px 0px 20px;
 }
 .titulo-2 {
+  letter-spacing: 3px;
   font-family: "Open Sans", sans-serif;
   font-size: 3.5rem;
+}
+.content {
+  font-family: "Khula", sans-serif;
+  margin: 30px;
+  font-size: 1rem;
+  text-align: left;
+  flex-direction: column;
+}
+.bio{
+  padding: 10px;
 }
