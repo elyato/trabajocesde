@@ -50,12 +50,12 @@ header {
   color: #000;
   cursor: pointer;
 }
-h1 {
+.titulo {
   font-family: "Open Sans", sans-serif;
   font-size: 9rem;
   line-height: 1.2;
 }
-p {
+.frase {
   font-family: "Pacifico", cursive;
   color: rgb(0, 0, 0);
   font-size: 1rem;
@@ -112,4 +112,25 @@ p {
 .content-botton :hover {
   background-color: #94f1e5;
   color: rgb(11, 10, 10);
+}
+.biografia {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: black;
+}
+.content-bio {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+}
+.img-bio {
+  width: 270px;
+  height: auto;
+}
+.titulo-2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3.5rem;
 }
