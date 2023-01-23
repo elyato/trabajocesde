@@ -18,8 +18,9 @@ body {
 }
 header {
   background-color: rgb(29, 0, 0);
-  height: 60px;
+  height: 15%;
   display: flex;
+  width: -webkit-fill-available;
 }
 .container {
   display: flex;
@@ -31,6 +32,22 @@ header {
 .icon7 {
   width: 65px;
   height: auto;
+}
+.cristiano {
+  height: 91vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(1, 107, 131, 0.815),
+      rgba(118, 116, 116, 0.654)
+    ),
+    url(/img/ronaldo.jpeg);
+  position: relative;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: rgb(255, 255, 255);
 }
 
 .prueba {
@@ -65,24 +82,9 @@ header {
   text-decoration: dashed;
 }
 
-.cristiano {
-  height: 83vh;
-  background-image: linear-gradient(
-      to right,
-      rgba(1, 107, 131, 0.815),
-      rgba(118, 116, 116, 0.654)
-    ),
-    url(/img/ronaldo.jpeg);
-  position: relative;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  color: rgb(255, 255, 255);
-}
+
 .content-botton {
-  padding: 138px;
+  padding: 110px;
   display: flex;
   align-self: center;
   align-items: center;
